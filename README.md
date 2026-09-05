@@ -1,4 +1,7 @@
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>My Travel Gallery</title>
 
 <style>
@@ -229,6 +232,14 @@
 
     <div class="item" data-category="goa">
       <img src="https://via.placeholder.com/400x300?text=Goa+Photo+1">
+    </div>
+    
+     <div class="item" data-category="goa">
+      <img src="https://via.placeholder.com/400x300?text=Goa+Photo+2">
+    </div>
+    
+     <div class="item" data-category="goa">
+      <img src="https://via.placeholder.com/400x300?text=Goa+Photo+3">
     </div>
 
   </div>
