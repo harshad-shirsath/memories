@@ -107,6 +107,14 @@
     display: block;
   }
 
+  /* Embedded Playbook videos/galleries */
+  .item iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
+
   /* Only video thumbnails get a pointer cursor, since only they're clickable */
   .item.video-item {
     cursor: pointer;
@@ -222,10 +230,10 @@
     <div class="item" data-category="korigad">
       <div style="height: 400px;">
         <iframe 
-          src="https://www.playbook.com/s/memoriesio/eD1szJXrcKzTEYYpF2CP65et?assetToken=qTGNW2MxFGdvzHo6iBdr2w2j"
+          src="https://playbook.com/e/memoriesio/eD1szJXrcKzTEYYpF2CP65et?assetToken=qTGNW2MxFGdvzHo6iBdr2w2j"
           title="Korigad Fort video - Playbook.com"
-          sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-presentation"
-          allow="autoplay; encrypted-media; fullscreen"
+          allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+          allowfullscreen
           frameborder="0"
           width="100%"
           height="100%">
@@ -242,8 +250,8 @@
         <iframe 
           src="https://playbook.com/e/memoriesio/qG6WL2eqT15DBCm9yjfHZGPQ?theme=carousel&rows=1&slidesPerRow=3"
           title="Lohagad Fort - Playbook.com"
-          sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-presentation"
-          allow="autoplay; encrypted-media; fullscreen"
+          allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+          allowfullscreen
           frameborder="0"
           width="100%"
           height="100%">
@@ -264,7 +272,8 @@
         <iframe 
           src="https://playbook.com/e/memoriesio/muE9PF6eFpeTMhGoWtCG7Co8?theme=gallery&assetNumber=3&displaySize=large"
           title="Goa Diary - Playbook.com" 
-          allow="autoplay; encrypted-media; fullscreen"
+          allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+          allowfullscreen
           frameborder="0" 
           width="100%" 
           height="100%">
