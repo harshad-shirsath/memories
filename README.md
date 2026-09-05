@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -98,6 +99,14 @@
     display: block;
   }
 
+  /* Native video tags need the same sizing rule as images so they
+     fit into the masonry columns the same way */
+  .item video {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
   /* Only video thumbnails get a pointer cursor, since only they're clickable */
   .item.video-item {
     cursor: pointer;
@@ -105,6 +114,13 @@
 
   .item.hidden {
     display: none;
+  }
+
+  /* Add this class to any item that should stretch across the FULL width
+     of the gallery instead of sitting inside just one narrow column.
+     Used for the Goa Diary embed below. */
+  .item.wide-item {
+    column-span: all;
   }
 
   /* This hides the ENTIRE grid at once — used for the "All" tab, which
@@ -160,6 +176,9 @@
     cursor: pointer;
   }
 </style>
+</head>
+<body>
+
   <h1 class="page-title">My Travel Gallery</h1>
 
   <!-- 
@@ -226,19 +245,18 @@
       <img src="https://via.placeholder.com/400x600?text=Manali+Photo+2">
     </div>
 
-    <div class="item" data-category="goa">
- <div class="item" data-category="goa">
-  <div style="height: 900px;">
-    <iframe 
-      src="https://playbook.com/e/memoriesio/muE9PF6eFpeTMhGoWtCG7Co8?theme=gallery&assetNumber=3&displaySize=large"
-      title="Goa Diary - Playbook.com" 
-      sandbox="allow-same-origin allow-scripts" 
-      frameborder="0" 
-      width="100%" 
-      height="100%">
-    </iframe>
-  </div>
-</div>
+    <div class="item wide-item" data-category="goa">
+      <div style="height: 900px;">
+        <iframe 
+          src="https://playbook.com/e/memoriesio/muE9PF6eFpeTMhGoWtCG7Co8?theme=gallery&assetNumber=3&displaySize=large"
+          title="Goa Diary - Playbook.com" 
+          sandbox="allow-same-origin allow-scripts" 
+          frameborder="0" 
+          width="100%" 
+          height="100%">
+        </iframe>
+      </div>
+    </div>
 
   </div>
 
@@ -299,7 +317,7 @@
       });
     });
 
-    // Video popup player logic (same as before)
+    // Video popup player logic
     const lightbox = document.getElementById('lightbox');
     const lightboxFrame = document.getElementById('lightboxFrame');
 
