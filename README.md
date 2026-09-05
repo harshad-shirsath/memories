@@ -231,9 +231,10 @@
     </div>
 
     <div class="item" data-category="goa">
-  <div style="height: 600px;">
+ <div class="item" data-category="goa">
+  <div style="height: 900px;">
     <iframe 
-      src="https://playbook.com/e/memoriesio/muE9PF6eFpeTMhGoWtCG7Co8?theme=gallery&assetNumber=3&displaySize=medium" 
+      src="https://playbook.com/e/memoriesio/muE9PF6eFpeTMhGoWtCG7Co8?theme=gallery&assetNumber=3&displaySize=large"
       title="Goa Diary - Playbook.com" 
       sandbox="allow-same-origin allow-scripts" 
       frameborder="0" 
@@ -241,6 +242,7 @@
       height="100%">
     </iframe>
   </div>
+</div>
 
   </div>
 
