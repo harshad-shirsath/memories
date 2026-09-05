@@ -201,7 +201,7 @@
   <div class="gallery" id="gallery">
 
     <div class="item" data-category="korigad">
-      <img src="https://via.placeholder.com/400x550?text=Korigad+Photo+1">
+      <img src="https://www.playbook.com/s/memoriesio/ztmszaJPb9q6x8Ed2XPMDcBa?assetToken=sF2vvuCkU3VYLmhdfZbfGXSn">
     </div>
 
     <div class="item video-item" data-category="korigad" data-video="dQw4w9WgXcQ">
@@ -231,16 +231,16 @@
     </div>
 
     <div class="item" data-category="goa">
-      <img src="https://via.placeholder.com/400x300?text=Goa+Photo+1">
-    </div>
-    
-     <div class="item" data-category="goa">
-      <img src="https://via.placeholder.com/400x300?text=Goa+Photo+2">
-    </div>
-    
-     <div class="item" data-category="goa">
-      <img src="https://via.placeholder.com/400x300?text=Goa+Photo+3">
-    </div>
+  <div style="height: 600px;">
+    <iframe 
+      src="https://playbook.com/e/memoriesio/muE9PF6eFpeTMhGoWtCG7Co8?theme=gallery&assetNumber=3&displaySize=medium" 
+      title="Goa Diary - Playbook.com" 
+      sandbox="allow-same-origin allow-scripts" 
+      frameborder="0" 
+      width="100%" 
+      height="100%">
+    </iframe>
+  </div>
 
   </div>
 
