@@ -1,3 +1,4 @@
+<head>
 <title>My Travel Gallery</title>
 
 <style>
