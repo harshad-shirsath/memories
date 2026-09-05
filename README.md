@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -105,6 +104,12 @@
   }
 
   .item.hidden {
+    display: none;
+  }
+
+  /* This hides the ENTIRE grid at once — used for the "All" tab, which
+     shows only the description text with no photos or videos below it. */
+  .gallery.hidden {
     display: none;
   }
 
@@ -257,6 +262,7 @@
     const tabs = document.querySelectorAll('.tab');
     const items = document.querySelectorAll('.item');
     const tripDescEl = document.getElementById('tripDesc');
+    const galleryEl = document.getElementById('gallery');
 
     tabs.forEach(tab => {
       tab.addEventListener('click', () => {
@@ -268,10 +274,17 @@
         // Update the description text above the grid
         tripDescEl.textContent = tripDescriptions[chosen] || "";
 
+        // "All" tab: hide every photo/video, show description only
+        if (chosen === 'all') {
+          galleryEl.classList.add('hidden');
+        } else {
+          galleryEl.classList.remove('hidden');
+        }
+
         // Show or hide items to match the chosen tab
         items.forEach(item => {
           const category = item.getAttribute('data-category');
-          if (chosen === 'all' || category === chosen) {
+          if (category === chosen) {
             item.classList.remove('hidden');
           } else {
             item.classList.add('hidden');
