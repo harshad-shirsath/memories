@@ -160,10 +160,6 @@
     cursor: pointer;
   }
 </style>
-</head>
-
-<body>
-
   <h1 class="page-title">My Travel Gallery</h1>
 
   <!-- 
