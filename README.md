@@ -219,9 +219,17 @@
       <img src="https://www.playbook.com/s/memoriesio/ztmszaJPb9q6x8Ed2XPMDcBa?assetToken=sF2vvuCkU3VYLmhdfZbfGXSn">
     </div>
 
-    <div class="item video-item" data-category="korigad" data-video="dQw4w9WgXcQ">
-      <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg">
-      <span class="duration-badge">▶ 0:17</span>
+    <div class="item" data-category="korigad">
+      <div style="height: 400px;">
+        <iframe 
+          src="https://www.playbook.com/s/memoriesio/eD1szJXrcKzTEYYpF2CP65et?assetToken=qTGNW2MxFGdvzHo6iBdr2w2j"
+          title="Korigad Fort video - Playbook.com"
+          sandbox="allow-same-origin allow-scripts"
+          frameborder="0"
+          width="100%"
+          height="100%">
+        </iframe>
+      </div>
     </div>
 
     <div class="item" data-category="korigad">
