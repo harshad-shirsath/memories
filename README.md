@@ -325,7 +325,7 @@
       const videoId = item.getAttribute('data-video');
       if (videoId) {
         item.addEventListener('click', () => {
-          lightboxFrame.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1';
+          lightboxFrame.src = 'https://www.youtube.com/embed/' + videoId + '?autoplay=1&mute=1';
           lightbox.classList.add('open');
         });
       }
