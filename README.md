@@ -228,13 +228,17 @@
       <img src="https://via.placeholder.com/400x300?text=Korigad+Photo+2">
     </div>
 
-    <div class="item" data-category="lohagad">
-      <img src="https://via.placeholder.com/400x700?text=Lohagad+Photo+1">
-    </div>
-
-    <div class="item video-item" data-category="lohagad" data-video="dQw4w9WgXcQ">
-      <img src="https://img.youtube.com/vi/dQw4w9WgXcQ/hqdefault.jpg">
-      <span class="duration-badge">▶ 0:34</span>
+    <div class="item wide-item" data-category="lohagad">
+      <div style="height: 600px;">
+        <iframe 
+          src="https://playbook.com/e/memoriesio/qG6WL2eqT15DBCm9yjfHZGPQ?theme=carousel&rows=1&slidesPerRow=3"
+          title="Lohagad Fort - Playbook.com"
+          sandbox="allow-same-origin allow-scripts"
+          frameborder="0"
+          width="100%"
+          height="100%">
+        </iframe>
+      </div>
     </div>
 
     <div class="item" data-category="manali">
